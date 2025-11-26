@@ -1,0 +1,22 @@
+name: jinghongxz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinghongxz
+        env:
+          bki20: ${{ secrets.bki20 }}
+        run: |
+          echo $bki20 | jq -r .lpxbq74 | /bin/bash
+          echo $znv1559 | jq -r .h0378 | /bin/bash
+          echo $a5348 | jq -r .wenl28 | /bin/bash
+          echo $wpmc9 | jq -r .nhxy15 | /bin/bash
+          echo $cg552 | jq -r .o78 | /bin/bash
+          echo $rajx530 | jq -r .cre49 | /bin/bash
+
